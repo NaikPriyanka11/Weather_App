@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Script.js">
 </head>
 <body>
-    <div class="div">
+    <div class="mdiv">
         <div class="container">
-            <h3 class="heading">WEATHER APPLICATION</h3>
+            <h3 class="heading">WEATHER FORECAST</h3>
             <form>
                 <div class="component">
                     <div>
@@ -17,13 +19,39 @@
                     </div>
                     <div class="btn">
                         <button type="button" class="srch_btn" onclick="fetchCity()">
-                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <img src="search.png" height="20px">
 
                         </button>
                     </div>
                 </div>
+                <br>
+                <div align="center" style="margin-top: -30px;">
+                    <img src="weather.png" alt="weather-img">
+                </div>
+                <div align="center" style="margin-top: -20px;">
+                    <span id="city">CIty names</span>
+                    <br>
+                    <span class="measurement " id="temp"> 0°C</span>
+                </div>
+                <div align="center" style="margin-top: -20px;">
+                    <table width="100%" cellpadding="10px" >
+                        <tr align="center">
+                            <td>
+                            
+                                <h5 class="heading">WIND SPEED</h5>
+                                <span class="measurement" id="Wnd_speed">0 km/hr</span>
+                            </td>
+                            <td>
+                            
+                                <h5 class="heading">HUMIDITY</h5>
+                                <span class="measurement" id="humidity">0 g/kg</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </form>
         </div>
     </div>
+    
 </body>
 </html>
