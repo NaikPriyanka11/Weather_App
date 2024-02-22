@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/* main div */
 .mdiv{
     height: 100vh;
     width: 100%;
@@ -15,10 +17,55 @@
     justify-content: center;
 }
 
-
+/* main container which takes all data  */
 .container{
-    height: 350px;
-    width: 250px;
+    height: 500 px;
+    width: 350px;
     box-shadow: 0px 0px 20px gray;
+    border-radius: 30px;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
 
 }
+
+/* add css for weather forecast Heading */
+.heading{
+    color: royalblue;
+    font-family:  Arial Black;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+
+input[type="text"]{
+    height: 35px;
+    width: 250px;
+    padding-left: 8px;
+    outline: none;
+    font-weight: bolder;
+    text-transform: uppercase;   /* this property is used for text whatever text u type it is converted in the Uppercase */
+    
+}
+
+.srch_btn{
+    border: none;
+    background-color: transparent;
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+
+.component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn{
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
