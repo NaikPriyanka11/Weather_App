@@ -19,7 +19,7 @@
 
 /* main container which takes all data  */
 .container{
-    height: 500 px;
+    height: 400px;
     width: 350px;
     box-shadow: 0px 0px 20px gray;
     border-radius: 30px;
@@ -41,11 +41,12 @@
 
 input[type="text"]{
     height: 35px;
-    width: 250px;
-    padding-left: 8px;
+    width: 260px;
+    padding-left: 5px;
     outline: none;
     font-weight: bolder;
     text-transform: uppercase;   /* this property is used for text whatever text u type it is converted in the Uppercase */
+    border-radius: 10px;    /*here we add rounded corners for input section */
     
 }
 
@@ -67,5 +68,24 @@ input[type="text"]{
 .btn{
     margin-top: -20px;
     margin-left: 5px;
+}
+
+#city{
+    
+    color: orangered;
+    font-family: arial black;
+    font-size: 20px;
+}
+
+
+.measurement{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.headings{
+    color: royalblue;
+    font-family: arial black;
+    font-size: 12px;
 }
 
